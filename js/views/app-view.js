@@ -55,7 +55,7 @@ var app = app || {};
 			if (app.todos.length) {
 				this.$main.show();
 				this.$footer.show();
-
+				
 				this.$footer.html(this.statsTemplate({
 					completed: completed,
 					remaining: remaining
